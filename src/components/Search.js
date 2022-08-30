@@ -23,7 +23,7 @@ export default function Search() {
 	}
 
 	return (
-		<div className="Search">
+		<div className="Search container">
 			<div className="container-fluid">
 				<form className="d-flex" role="search" onSubmit={search}>
 					<input
@@ -34,7 +34,7 @@ export default function Search() {
 						autoFocus="on"
 						onChange={handleKeyword}
 					/>
-					<button className="btn btn-primary" type="submit">
+					<button className="btn btn-primary ms-2" type="submit">
 						Search
 					</button>
 				</form>

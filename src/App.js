@@ -21,7 +21,7 @@ function App() {
 							</span>{' '}
 							by Fabiola Suárez
 						</p>
-						<p className="fw-lighter text-center">
+						<p className="text-center">
 							<a
 								href="https://github.com/fabiolasuarez11/the-graphic-dictionary-app"
 								target="_blank"
