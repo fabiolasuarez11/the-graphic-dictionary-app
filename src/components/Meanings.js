@@ -1,10 +1,10 @@
 import React from 'react';
 
 export default function Meanings(props) {
-	if (props.definitions) {
+	if (props.meanings) {
 		return (
 			<div className="Meaning">
-				{props.definitions.meanings.map((meaning, index) => {
+				{props.meanings.map((meaning, index) => {
 					return (
 						<div key={index}>
 							<h3 className="text-center">{meaning.partOfSpeech}</h3>
@@ -13,7 +13,10 @@ export default function Meanings(props) {
 								if (definition.definition) {
 									return (
 										<div key={index}>
-											<p>{definition.definition} </p>
+											<div className="definition">{definition.definition}</div>
+											<div className="example">
+												<em>{definition.example}</em>
+											</div>
 										</div>
 									);
 								} else {

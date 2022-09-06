@@ -1,17 +1,17 @@
 import React from 'react';
-import Examples from './Examples';
 import Meanings from './Meanings';
-import './Results.css';
+import Phonetics from './Phonetics';
 import Synonyms from './Synonyms';
+import './Results.css';
 
 export default function Results(props) {
-	if (props.definitions) {
+	if (props.dictionary) {
 		return (
 			<div className="Results">
-				<h2 className="text-center m-4">{props.definitions.word}</h2>
-				<Meanings definitions={props.definitions} />
-				<Examples definitions={props.definitions} />
-				<Synonyms definitions={props.definitions} />
+				<h2 className="text-center m-4">{props.dictionary.word}</h2>
+				<Phonetics phonetics={props.dictionary.phonetics} />
+				<Meanings meanings={props.dictionary.meanings} />
+				<Synonyms meanings={props.dictionary.meanings} />
 			</div>
 		);
 	} else {

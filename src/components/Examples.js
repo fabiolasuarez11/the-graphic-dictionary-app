@@ -1,11 +1,11 @@
 import React from 'react';
 
 export default function Examples(props) {
-	if (props.definitions) {
+	if (props.meanings) {
 		return (
 			<div className="Examples">
 				<h5>Examples</h5>
-				{props.definitions.meanings.map((meaning, index) => {
+				{props.meanings.map((meaning, index) => {
 					return (
 						<div key={index}>
 							{meaning.definitions.map((definition, index) => {

@@ -4,7 +4,7 @@ import Results from './Results';
 
 export default function Search() {
 	const [keyword, setKeyword] = useState('');
-	const [definitions, setDefinitions] = useState(null);
+	const [dictionary, setDictionary] = useState(null);
 
 	function search(event) {
 		event.preventDefault();
@@ -15,7 +15,7 @@ export default function Search() {
 
 	function handleResponse(response) {
 		console.log(response.data[0]);
-		setDefinitions(response.data[0]);
+		setDictionary(response.data[0]);
 	}
 
 	function handleKeyword(event) {
@@ -38,7 +38,7 @@ export default function Search() {
 						Search
 					</button>
 				</form>
-				<Results definitions={definitions} />
+				<Results dictionary={dictionary} />
 			</div>
 		</div>
 	);
