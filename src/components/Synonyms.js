@@ -20,6 +20,14 @@ export default function Synonyms(props) {
 											</ul>
 										</div>
 									);
+								} else if (meaning.synonyms.length === 0) {
+									return (
+										<div>
+											<p className="error-message">
+												😲 There are no synonyms for this word
+											</p>
+										</div>
+									);
 								} else {
 									return null;
 								}

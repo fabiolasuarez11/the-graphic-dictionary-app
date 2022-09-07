@@ -6,16 +6,10 @@ export default function Phonetics(props) {
 		return (
 			<div className="Phonetics">
 				<h5>Phonetics</h5>
-				{props.phonetics.map((phonetic, index) => {
-					return (
-						<div key={index}>
-							<span className="phonetic">{phonetic.text}</span>
-							<a href={phonetic.audio} target="_blank" rel="noreferrer">
-								<i className="fa-solid fa-volume-high fa-lg"></i>
-							</a>
-						</div>
-					);
-				})}
+				<span className="phonetic">{props.phonetics.text}</span>
+				<a href={props.phonetics.audio} target="_blank" rel="noreferrer">
+					<i className="fa-solid fa-volume-high fa-lg"></i>
+				</a>
 			</div>
 		);
 	} else {

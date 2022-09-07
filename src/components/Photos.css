@@ -1,4 +1,4 @@
-.Synonyms {
+.Photos {
 	background-color: #430f58;
 	border-radius: 16px;
 	box-shadow: 0 8px 8px #a393eb;
@@ -8,14 +8,7 @@
 	padding: 28px;
 }
 
-.synonym {
-	font-size: 18px;
-	line-height: 1.5em;
-	margin: 5px;
-}
-
-.error-message {
-	font-size: 18px;
-	line-height: 1.5em;
-	margin: 5px;
+.Photos img {
+	border-radius: 5px;
+	margin-bottom: 20px;
 }

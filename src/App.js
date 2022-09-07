@@ -10,7 +10,9 @@ function App() {
 					The Graphic Dictionary <i className="fa-solid fa-book"></i>
 				</h1>
 			</header>
-			<Search />
+			<main>
+				<Search />
+			</main>
 			<footer>
 				<div className="App-footer">
 					<div className="container-fluid p-4 pb-2 rounded-5 align-content-center">
