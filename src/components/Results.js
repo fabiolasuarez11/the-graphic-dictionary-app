@@ -2,7 +2,6 @@ import React from 'react';
 import Meanings from './Meanings';
 import Phonetics from './Phonetics';
 import Photos from './Photos';
-import Synonyms from './Synonyms';
 import './Results.css';
 
 export default function Results(props) {
@@ -10,10 +9,9 @@ export default function Results(props) {
 		return (
 			<div className="Results">
 				<h2 className="text-center m-4">{props.dictionary.word}</h2>
-				<Phonetics phonetics={props.dictionary.phonetics[0]} />
+				<Phonetics phonetics={props.dictionary.phonetics} />
 				<Photos photos={props.photos} />
 				<Meanings meanings={props.dictionary.meanings} />
-				<Synonyms meanings={props.dictionary.meanings} />
 			</div>
 		);
 	} else {
