@@ -1,1 +1,19 @@
+.Search {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	max-width: 800px;
+}
 
+.btn-primary {
+	background-color: #430f58;
+	border: #430f58;
+	color: #f5c7f7;
+}
+
+.btn-primary:hover {
+	background-color: #f5c7f7;
+	border: #f5c7f7;
+	color: #430f58;
+}

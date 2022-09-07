@@ -1,7 +1,9 @@
 .App {
-	background-color: #282c34;
-	color: #fff;
-	margin: 40px;
+	background: linear-gradient(
+		112.5deg,
+		rgb(95, 10, 135) 11.4%,
+		rgb(164, 80, 139) 60.2%
+	);
 }
 
 .App-header {
@@ -30,6 +32,6 @@
 }
 
 .repo:hover {
-	color: #0c9cee;
+	color: #430f58;
 	text-decoration: none !important;
 }

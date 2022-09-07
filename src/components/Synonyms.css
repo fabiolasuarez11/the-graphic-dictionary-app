@@ -1,0 +1,15 @@
+.Synonyms {
+	background-color: #430f58;
+	border-radius: 16px;
+	box-shadow: 0 8px 8px #a393eb;
+	color: #fff;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	padding: 28px;
+}
+
+.synonym {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 5px;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import './Meanings.css';
 
 export default function Meanings(props) {
 	if (props.meanings) {
 		return (
-			<div className="Meaning">
+			<div className="Meanings">
 				{props.meanings.map((meaning, index) => {
 					return (
 						<div key={index}>

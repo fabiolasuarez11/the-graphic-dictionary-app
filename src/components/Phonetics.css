@@ -1,0 +1,21 @@
+.Phonetics {
+	background-color: #430f58;
+	border-radius: 16px;
+	box-shadow: 0 8px 8px #a393eb;
+	color: #fff;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	padding: 28px;
+}
+
+.phonetic {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 5px;
+}
+
+.fa-volume-high {
+	line-height: 1.5em;
+	margin: 5px;
+	color: #f5c7f7;
+}
